@@ -7,6 +7,7 @@
  * @invite sJRAsZaYry
  * @donate https://ko-fi.com/tsukiyodev
  * @source https://github.com/TsukiyoDevs/BetterDiscord-Plugins/tree/main/Plugins/InviteInformation
+ * @updateUrl https://github.com/TsukiyoDevs/BetterDiscord-Plugins/blob/main/Plugins/InviteInformation/InviteInformation.plugin.js
  * @changelogDate 2024-07-21
  */
 
