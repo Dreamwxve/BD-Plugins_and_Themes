@@ -5,7 +5,7 @@
  * @author TsukiyoDev Team
  * @authorId 981755777754755122
  * @invite sJRAsZaYry
- * @donate https://ko-fi.com/tsukyiodev
+ * @donate https://ko-fi.com/tsukiyodev
  * @source https://github.com/TsukiyoDevs/BetterDiscord-Plugins/tree/main/Plugins/InviteInformation
  * @changelogDate 2024-07-21
  */
