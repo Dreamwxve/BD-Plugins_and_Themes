@@ -1,6 +1,6 @@
 /**
  * @name InviteInformation
- * @version 1.0.0
+ * @version 1.0.1
  * @description Shows epic info about an invite!
  * @author TsukiyoDev Team
  * @authorId 981755777754755122
@@ -19,23 +19,42 @@ const React = BdApi.React;
 /* @module @manifest */
 var manifest = {
     "name": "InviteInformation",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Shows epic info about an invite!",
     "author": "TsukiyoDev Team",
     "authorId": "981755777754755122",
     "invite": "sJRAsZaYry",
     "donate": "https://ko-fi.com/tsukiyodev",
     "source": "https://github.com/TsukiyoDevs/BetterDiscord-Plugins/tree/main/Plugins/InviteInformation",
-    "changelog": [{
-        "title": "Changes",
-        "type": "fixed",
-        "items": [
-            "Added \"Copy Server ID\"",
-            "Minor tweaks and code cleanup"
-        ]
-    }],
+    "changelog": [
+/* 
+--- Types
+> "added": For new features or additions.
+> "fixed": For bug fixes or resolved issues.
+> "changed": For changes to existing features or functionalities.
+> "removed": For features or functionalities that have been removed.
+> "deprecated": For features that are no longer recommended or will be removed in the future.
+> "security": For updates related to security improvements or fixes.
+
+*/
+        {
+            "title": "New stuff",
+            "type": "Added",
+            "items": [
+                "Added \"Copy Server ID\""
+            ]
+        },
+        {
+            "title": "Removed things",
+            "type": "removed",
+            "items": [
+                "Option to choose the invite splash image, it is now the servers banner for now on"
+            ]
+        }
+    ],
     "changelogDate": "2024-07-21"
 };
+
 /*@end */
 
 /* @module @api */
@@ -92,68 +111,51 @@ const Settings = new class Settings2 extends Flux.Store {
 /* @module settings.json */
 var SettingsItems = [
     {
-        type: "dropdown",
-        name: "Banner Type",
-        note: "Select what Banner to use",
-        id: "bannerType",
-        options: [
-            {
-                label: "BetterInvites",
-                value: "BetterInvites"
-            },
-            {
-                label: "Discord Invite Splash",
-                value: "discordInviteSplash"
-            }
-        ],
-        value: "BetterInvites"
-    },
-    {
         type: "switch",
-        name: "Show Guild Description",
-        note: "Whether to show the Guild description in the Invite",
+        name: "Show Description",
+        note: "Show the servers description, if they have one",
         id: "showGuildDescription",
         value: true
     },
     {
         type: "switch",
         name: "Show Boost Level",
-        note: "Whether to show the Boost Level in the Invite",
+        note: "See the boost level of the server and how many boosts",
         id: "showBoostLevel",
         value: true
     },
     {
         type: "switch",
-        name: "Show Inviter",
-        note: "Whether to show the Inviter in the Invite",
+        name: "Show Invite Owner",
+        note: "Curious on who made the invite?",
         id: "showInviter",
         value: true
     },
     {
         type: "switch",
         name: "Show Verification Level",
-        note: "Whether to show the Verification Level in the Invite",
+        note: "See what verification level is set on the server",
         id: "showVerificationLevel",
         value: true
     },
     {
         type: "switch",
         name: "Show NSFW",
-        note: "Whether to show if the Guild is marked as NSFW",
+        note: "See if the server is 18+ or not",
         id: "showNSFW",
         value: true
     },
     {
         type: "switch",
         name: "Show Invite Expiration",
-        note: "Whether to show when the Invite expires",
+        note: "handy to know when the invite expires",
         id: "showInviteExpiry",
         value: true
     },
     {
         type: "switch",
         name: "Show Server ID",
-        note: "Whether to show a button to copy the Server ID",
+        note: "Wanna be able to copy the server id?",
         id: "showServerID",
         value: false
     }
