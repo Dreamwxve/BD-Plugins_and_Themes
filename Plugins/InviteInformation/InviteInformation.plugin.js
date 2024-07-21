@@ -1,13 +1,13 @@
 /**
- * @name InvitesInfo
+ * @name InviteInformation
  * @version 1.0.0
- * @description Shows some useful information in the invitation
+ * @description Shows epic info about an invite!
  * @author TsukiyoDev Team
  * @authorId 981755777754755122
- * @invite gp2ExK5vc7
+ * @invite sJRAsZaYry
  * @donate https://ko-fi.com/tsukyiodev
- * @source https://github.com/TsukiyoDevs/BetterDiscord-Plugins/tree/main/BetterInvites
- * @changelogDate 2024-07-06
+ * @source https://github.com/TsukiyoDevs/BetterDiscord-Plugins/tree/main/Plugins/InviteInformation
+ * @changelogDate 2024-07-21
  */
 
 'use strict';
@@ -18,20 +18,23 @@ const React = BdApi.React;
 
 /* @module @manifest */
 var manifest = {
-    "name": "BetterInvites",
-    "version": "1.6.5",
-    "description": "Shows some useful information in the invitation",
-    "author": "domi.btnr",
-    "authorId": "354191516979429376",
-    "invite": "gp2ExK5vc7",
-    "donate": "https://paypal.me/domibtnr",
-    "source": "https://github.com/domi-btnr/BetterDiscordStuff/tree/development/BetterInvites",
+    "name": "InviteInformation",
+    "version": "1.0.0",
+    "description": "Shows epic info about an invite!",
+    "author": "TsukiyoDev Team",
+    "authorId": "981755777754755122",
+    "invite": "sJRAsZaYry",
+    "donate": "https://ko-fi.com/tsukiyodev",
+    "source": "https://github.com/TsukiyoDevs/BetterDiscord-Plugins/tree/main/Plugins/InviteInformation",
     "changelog": [{
-        "title": "Fixed",
+        "title": "Changes",
         "type": "fixed",
-        "items": ["The Plugin finally works again"]
+        "items": [
+            "Added \"Copy Server ID\"",
+            "Minor tweaks and code cleanup"
+        ]
     }],
-    "changelogDate": "2024-07-06"
+    "changelogDate": "2024-07-21"
 };
 /*@end */
 
