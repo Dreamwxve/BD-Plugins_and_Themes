@@ -689,13 +689,13 @@ button.button_dd4f85 /* small buttons */,
 	transform: scale(0.9);
 }
 [class^='winButtonClose']::after {
-	background-color: var(--dnd-indicator) !important;
+	background-color: purple !important;
 }
 [class^='winButtonMinMax']:nth-child(3)::after {
-	background-color: var(--online-indicator) !important;
+	background-color: violet !important;
 }
 [class^='winButtonMinMax']:nth-child(4)::after {
-	background-color: var(--idle-indicator) !important;
+	background-color: white !important;
 }
 
 /* custom dm button moon icon */
@@ -1128,7 +1128,7 @@ html.theme-light,
 	--status-warning-background: var(--yellow-300);
 	--status-warning-text: var(--black-500);
 	--text-brand: var(--accent-1);
-	--text-danger: var(--red-345);
+	--text-danger: #ff0000;
 	--text-link: var(--accent-1);
 	--text-link-low-saturation: var(--blue-330);
 	--text-low-contrast: var(--primary-360);
@@ -1145,7 +1145,7 @@ html.theme-light,
 	--user-profile-header-overflow-background: hsl(var(--primary-700-hsl) / 0.5);
 	--voice-video-tile-blur-fallback: hsl(var(--primary-700-hsl) / 0.48);
 	--voice-video-video-tile-blur-fallback: hsl(var(--primary-700-hsl) / 0.48);
-	--white: var(--white-500);
+	--white: white;
 
 	--profile-gradient-primary-color: var(--bg-4);
 	--profile-gradient-secondary-color: var(--bg-4);
@@ -1155,7 +1155,7 @@ html.theme-light,
 	--search-popout-option-fade-hover: none;
 
 	--brand-260: var(--bg-1); /* new badge */
-	--brand-430: var(--accent-3);
+	--brand-430: var(--accent-3); 
 	--brand-500: var(--accent-3);
 	--brand-530: var(--accent-4);
 	--brand-560: var(--accent-4);
