@@ -8,7 +8,7 @@
  * @website https://tsukiyodevteam.xyz/
  * @donate https://ko-fi.com/tsukiyodev
  * @source https://github.com/TsukiyoDevs/BD-Plugins_and_Themes/tree/main/Plugins/InviteInfo
- * @updateUrl https://github.com/TsukiyoDevs/BD-Plugins_and_Themes/blob/main/Plugins/InviteInfo/inviteinfo.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/TsukiyoDevs/BD-Plugins_and_Themes/main/Plugins/InviteInfo/inviteinfo.plugin.js
  * @changelogDate 2024-07-06
  */
 
