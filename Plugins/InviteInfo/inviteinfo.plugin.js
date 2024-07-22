@@ -6,7 +6,8 @@
  * @authorId 981755777754755122
  * @invite sJRAsZaYry
  * @donate https://ko-fi.com/tsukiyodev
- * @source 
+ * @source https://github.com/TsukiyoDevs/BD-Plugins_and_Themes/tree/main/Plugins/InviteInfo
+ * @updateUrl https://github.com/TsukiyoDevs/BD-Plugins_and_Themes/blob/main/Plugins/InviteInfo/inviteinfo.plugin.js
  * @changelogDate 2024-07-06
  */
 
@@ -21,11 +22,11 @@ var manifest = {
     "name": "InviteInfo",
     "version": "1.0.0",
     "description": "Shows extra information about an invite!",
-    "author": "domi.btnr",
+    "author": "Tsukiyodev Team",
     "authorId": "981755777754755122",
     "invite": "sJRAsZaYry",
     "donate": "https://ko-fi.com/tsukiyodev",
-    "source": "https://github.com/domi-btnr/BetterDiscordStuff/tree/development/BetterInvites",
+    "source": "https://github.com/TsukiyoDevs/BD-Plugins_and_Themes/tree/main/Plugins/InviteInfo",
     "changelog": [{
         "title": "Fixed",
         "type": "fixed",
