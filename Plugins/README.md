@@ -1,4 +1,4 @@
-> [!WARN]
+> [!WARNING]
 > Make sure to install the two plugins found in `REQUIRED_PLUGINS` otherwise our plugins will not work :sob::broken_heart:
 
 > [!NOTE]
