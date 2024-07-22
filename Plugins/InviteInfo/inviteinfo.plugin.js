@@ -21,7 +21,7 @@ const React = BdApi.React;
 /* @module @manifest */
 var manifest = {
     "name": "InviteInfo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Shows extra information about an invite!",
     "author": "Tsukiyodev Team",
     "authorId": "981755777754755122",
