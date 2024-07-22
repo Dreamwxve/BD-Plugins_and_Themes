@@ -785,10 +785,14 @@ button.button_dd4f85 /* small buttons */,
 }
 /* modify embeds */
 .embedFull_b0068a {
-	border: 4px solid var(--bg-2);
-	border-top-color: transparent !important;
-	border-bottom-color: transparent !important;
-	border-right-color: transparent !important;
+	border: 3px solid ;
+/*   embeds colour is a border with this commented
+
+	border-top-color: transparent !important; 
+	border-bottom-color: transparent !important; 
+	border-right-color: transparent !important; 
+
+*/
 }
 
 /* server selected marker */
