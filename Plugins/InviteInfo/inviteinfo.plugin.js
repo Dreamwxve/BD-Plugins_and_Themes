@@ -4,7 +4,7 @@
  * @description Shows extra information about an invite!
  * @author TsukiyoDev Team
  * @authorId 981755777754755122
- * @invite 
+ * @invite sJRAsZaYry
  * @website https://tsukiyodevteam.xyz/
  * @donate https://ko-fi.com/tsukiyodev
  * @source https://github.com/TsukiyoDevs/BD-Plugins_and_Themes/tree/main/Plugins/InviteInfo
