@@ -732,6 +732,9 @@ button.button_dd4f85 /* small buttons */,
 	-webkit-mask-size: var(--moon-icon-size);
 	-webkit-mask-repeat: none;
 }
+.wrapper_bf1b19 {
+	color: hsl(235 calc( 1 * 86.2%) 88.6% / 1) /* mention text colour | hsl(235 calc( 1 * 86.2%) 88.6% / 1) */
+}
 .wrapper_f90abb:hover .childWrapper_f90abb::before {
 	/* prettier-ignore */
 	transition: background-color 0.15s ease-out, transform var(--moon-spin-transition);
@@ -893,7 +896,7 @@ html.theme-light,
 	--android-ripple: hsl(var(--white-500-hsl) / 0.07);
 	--background-accent: var(--bg-2);
 	--background-floating: var(--bg-3);
-	--background-mentioned: var(--mention);
+	--background-mentioned: rgba(30, 167, 194, 0.134);
 	--background-mentioned-hover: var(--mention-hover);
 	--background-message-automod: hsl(var(--red-400-hsl) / 0.05);
 	--background-message-automod-hover: hsl(var(--red-400-hsl) / 0.1);
