@@ -2,7 +2,7 @@
  * @name Midnight-Spotify
  * @description A dark, rounded discord UI update
  * @author TsukiyoDev Team
- * @version 1.0.2
+ * @version 1.0.5
  * @invite sJRAsZaYry
  * @website https://tsukiyodevteam.xyz/
  * @source https://github.com/TsukiyoDevs/BD-Plugins_and_Themes/blob/main/Themes/midnight-spotify.theme.css
@@ -17,6 +17,13 @@
 :root {
 	/* font, change to 'gg sans' for default discord font*/
 	--font: 'figtree';
+
+/*                       Invisible toggles | #00000000
+          Comment the line out to disable and revert to colour 
+*/
+	               --invisBg1: #00000000;
+	            /*   --invisBg2: #00000000; */
+
 
 	/* top left corner text */
 	--corner-text: 'TsukiyoDev Team';
@@ -35,20 +42,19 @@
 	--accent-5: hsl(260, 70%, 30%); /* accent buttons when clicked */	
 	--mention: hsla(190, 80%, 52%, 0.1); /* mentions & mention messages */
 	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
-
 	/* text colors */
 	--text-0: white; /* text on colored elements */
 	--text-1: white; /* other normally white text */
-	--text-2: #c5ccda; /* headings and important text | ;*/
-	--text-3: #ffffff; /* normal text | hsl(220, 15%, 60%) */
+	--text-2: white; /* headings and important text | ;*/
+	--text-3: white; /* normal text | hsl(220, 15%, 60%) */
 	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
 	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
 	--bg-1: hsl(260, 15%, 20%); /* dark buttons when clicked */
 	--bg-2: hsl(260, 15%, 16%); /* dark buttons */
-	--bg-3: hsl(260, 15%, 13%); /* spacing, secondary elements */
-	--bg-4: #000000; /* main background color */
+	--bg-3: var(--invisBg1, #000000); /* spacing, secondary elements */
+	--bg-4: var(--invisBg2, hsl(260, 15%, 13%)); /* main background color */
 	--hover: hsla(270, 20%, 40%, 0.1); /* channels and buttons when hovered */
 	--active: hsla(260, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
 	--message-hover: hsla(260, 10%, 10%, 0.1); /* messages when hovered */	
@@ -643,7 +649,7 @@ button.button_dd4f85 /* small buttons */,
 	display: none;
 }
 [class^='wordmarkWindows']::after {
-	content: var(--corner-text);
+	content: none; /* default is var(--corner-text); */
 	display: block;
 	position: relative;
 	height: 16px;
@@ -658,44 +664,47 @@ button.button_dd4f85 /* small buttons */,
 
 /* top bar height */
 [class^='typeWindows'] {
-	height: calc(var(--spacing) + 12px);
-	margin: 0;
+    height: 20px; /* calc(var(--spacing) + 12px) */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
 }
 
 /* window controls */
 [class^='winButton'] > svg {
-	display: none;
+    display: none;
 }
 [class^='winButton'] {
-	background: none !important;
-	top: 0;
-	width: calc(24px);
-	height: calc(var(--spacing) + 12px);
-	margin: 0;
+    background: none !important;
+    top: 0;
+    width: 24px; /* Remove calc() since it's not doing anything here */
+    height: calc(var(--spacing) + 12px);
+    margin: 0 4px; /* Add some horizontal margin between buttons */
 }
 [class^='winButtonClose'] {
-	padding-right: calc(var(--spacing) - 5px);
+    padding-right: calc(var(--spacing) - 5px);
 }
 [class^='winButton']::after {
-	content: '';
-	height: 12px;
-	width: 12px;
-	border-radius: 12px;
+    content: '';
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
 }
 [class^='winButton']:hover::after {
-	filter: brightness(0.8);
+    filter: brightness(0.8);
 }
 [class^='winButton']:active::after {
-	transform: scale(0.9);
+    transform: scale(0.9);
 }
 [class^='winButtonClose']::after {
-	background-color: purple !important;
+    background-color: red !important;
 }
 [class^='winButtonMinMax']:nth-child(3)::after {
-	background-color: violet !important;
+    background-color: yellow !important;
 }
 [class^='winButtonMinMax']:nth-child(4)::after {
-	background-color: white !important;
+    background-color: cyan !important;
 }
 
 /* custom dm button moon icon */
