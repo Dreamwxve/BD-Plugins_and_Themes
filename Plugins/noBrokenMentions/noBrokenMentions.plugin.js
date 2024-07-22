@@ -1,26 +1,20 @@
 /**
  * @name noBrokenMentions
  * @description Fetches user information when clicking on a user mention and replaces the mention with the username.
- * @version 1.0.1
- * @updateUrl https://raw.githubusercontent.com/YourGitHubUsername/UserMentionPlugin/main/noBrokenMentions.plugin.js
+ * @version 1.0.0
+ * @updateUrl https://raw.githubusercontent.com/YourGitHubUsername/BetterDiscord-Plugins/main/Plugins/noBrokenMentions/noBrokenMentions.plugin.js
  * @author TsukiyoDev Team
- * @authorId YourDiscordID
- * @authorLink https://github.com/YourGitHubUsername
+ * @authorId 981755777754755122
+ * @invite sJRAsZaYry
+ * @authorLink https://github.com/TsukiyoDevs
  * @website https://github.com/YourGitHubUsername/noBrokenMentions
- * @source https://github.com/TsukiyoDevs/noBrokenMentions
+ * @source https://github.com/TsukiyoDevs/BetterDiscord-Plugins/tree/main/Plugins/noBrokenMentions
  */
 
 module.exports = (() => {
     const config = {
         info: {
             name: "noBrokenMentions",
-            authors: [
-                {
-                    name: "TsukiyoDev Team",
-                    discord_id: "YourDiscordID",
-                    github_username: "YourGitHubUsername"
-                }
-            ],
             version: "1.0.1",
             description: "Fetches user information when clicking on a user mention and replaces the mention with the username.",
             github: "https://github.com/YourGitHubUsername/noBrokenMentions",
