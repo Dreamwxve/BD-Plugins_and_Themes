@@ -214,7 +214,7 @@ module.exports = (_ => {
 					},
 					viewerSettings: {
 						zoomMode: 				{value: true,	description: "Enables Zoom Mode to zoom into Images while holding down your Mouse"},
-						galleryMode: 				{value: false,	description: "Enables Gallery Mode to quick-switch between Images"},
+						galleryMode: 				{value: true,	description: "Enables Gallery Mode to quick-switch between Images"},
 						details: 				{value: true,	description: "Adds Image Details (Name, Size, Amount)"},
 						copyImage: 				{value: true,	description: "Adds a 'Copy Image' Option"},
 						saveImage: 				{value: true,	description: "Adds a 'Save Image as' Option"},
@@ -1137,7 +1137,7 @@ module.exports = (_ => {
 								})
 							].flat(10).filter(n => n)
 						});
-						
+						/*
 						if (this.settings.viewerSettings.details) {
 							e.returnvalue.props.children.push(BDFDB.ReactUtils.createElement("div", {
 								className: BDFDB.disCN._imageutilitiesdetailswrapper,
@@ -1157,7 +1157,7 @@ module.exports = (_ => {
 									]
 								}))
 							}));
-						}
+						}*/
 					}
 					if (this.settings.viewerSettings.galleryMode && viewedImage) {
 						if (!cachedImages || cachedImages.channelId != viewedImage.channelId || cachedImages.amount && this.getImageIndex(cachedImages.all, viewedImage) == -1) {
