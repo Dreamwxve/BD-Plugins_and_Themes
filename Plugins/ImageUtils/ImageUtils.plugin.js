@@ -214,7 +214,7 @@ module.exports = (_ => {
 					},
 					viewerSettings: {
 						zoomMode: 				{value: true,	description: "Enables Zoom Mode to zoom into Images while holding down your Mouse"},
-						galleryMode: 				{value: true,	description: "Enables Gallery Mode to quick-switch between Images"},
+						galleryMode: 				{value: false,	description: "Enables Gallery Mode to quick-switch between Images"},
 						details: 				{value: true,	description: "Adds Image Details (Name, Size, Amount)"},
 						copyImage: 				{value: true,	description: "Adds a 'Copy Image' Option"},
 						saveImage: 				{value: true,	description: "Adds a 'Save Image as' Option"},
@@ -1057,7 +1057,7 @@ module.exports = (_ => {
 									children: [
 										BDFDB.ReactUtils.createElement("span", {
 											className: BDFDB.disCN.imagemodalimagedownloadlink,
-											children: "|",
+											children: "⁘",
 											style: {margin: "0 5px"}
 										}),
 										BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.Anchor, {
@@ -1085,7 +1085,7 @@ module.exports = (_ => {
 									children: [
 										BDFDB.ReactUtils.createElement("span", {
 											className: BDFDB.disCN.imagemodalimagedownloadlink,
-											children: "|",
+											children: "⁘",
 											style: {margin: "0 5px"}
 										}),
 										BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.Anchor, {
@@ -1103,7 +1103,7 @@ module.exports = (_ => {
 									children: [
 										BDFDB.ReactUtils.createElement("span", {
 											className: BDFDB.disCN.imagemodalimagedownloadlink,
-											children: "|",
+											children: "⁘",
 											style: {margin: "0 5px"}
 										}),
 										BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.Anchor, {
@@ -1124,7 +1124,7 @@ module.exports = (_ => {
 									children: [
 										BDFDB.ReactUtils.createElement("span", {
 											className: BDFDB.disCN.imagemodalimagedownloadlink,
-											children: "|",
+											children: "⁘",
 											style: {margin: "0 5px"}
 										}),
 										BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.Anchor, {
