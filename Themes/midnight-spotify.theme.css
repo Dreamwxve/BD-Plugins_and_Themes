@@ -571,9 +571,9 @@ button.button_dd4f85 /* small buttons */,
 	right: 6px;
 }
 .wrapper_a7c28c /* mentions */,
-.searchBar_a46bef /* search bar */ {
+.searchBar_a46bef /* search bar */ /*{
 	background: black;
-}
+}*/
 .searchBar_f0963d .searchBarComponent_f0963d /* find conversation search bar */,
 .topPill_a0 .item_a0 /* friend online/categories */ {
 	border-radius: var(--roundness-xxs);
