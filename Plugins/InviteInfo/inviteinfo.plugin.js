@@ -280,7 +280,7 @@ Styles.sheets.push("/* changelog.scss */", `.Changelog-Title-Wrapper {
 }`); /*@end */
 
 /* @module index.jsx */
-class BetterInvites {
+class InviteInfo {
     start() {
         this.showChangelog();
         this.patchInvite();
