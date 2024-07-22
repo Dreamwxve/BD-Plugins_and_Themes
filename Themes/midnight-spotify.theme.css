@@ -2,7 +2,7 @@
  * @name Midnight-Spotify
  * @description A dark, rounded discord UI update
  * @author TsukiyoDev Team
- * @version 1.0.5
+ * @version 1.0.2
  * @invite sJRAsZaYry
  * @website https://tsukiyodevteam.xyz/
  * @source https://github.com/TsukiyoDevs/BD-Plugins_and_Themes/blob/main/Themes/midnight-spotify.theme.css
@@ -11,19 +11,27 @@
  * @authorLink https://tsukiyodevteam.xyz/
 */
 
-/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
+/* 
 
-/* customize things here */
+
+
+ 								IMPORTANT NOTICES
+							  ---------------------
+1. Discords quick search ("control + k" for windows) will look ew since its background is 
+   linked with the invisible background so you will just have to put up with it for now.
+
+2. Discords dark theme must be enabled for this theme to work properly.
+
+3. Change whatever you want! Have some fun, just remember this theme was personalised
+   to my tastes
+
+
+
+
+*/
 :root {
 	/* font, change to 'gg sans' for default discord font*/
 	--font: 'figtree';
-
-/*                       Invisible toggles | #00000000
-          Comment the line out to disable and revert to colour 
-*/
-	               --invisBg1: #00000000;
-	            /*   --invisBg2: #00000000; */
-
 
 	/* top left corner text */
 	--corner-text: 'TsukiyoDev Team';
@@ -54,7 +62,7 @@
 	--bg-1: hsl(260, 15%, 20%); /* dark buttons when clicked */
 	--bg-2: hsl(260, 15%, 16%); /* dark buttons */
 	--bg-3: var(--invisBg1, #000000); /* spacing, secondary elements */
-	--bg-4: var(--invisBg2, hsl(260, 15%, 13%)); /* main background color */
+	--bg-4: hsl(260, 15%, 13%); /* main background color */
 	--hover: hsla(270, 20%, 40%, 0.1); /* channels and buttons when hovered */
 	--active: hsla(260, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
 	--message-hover: hsla(260, 10%, 10%, 0.1); /* messages when hovered */	
@@ -563,7 +571,9 @@ button.button_dd4f85 /* small buttons */,
 	right: 6px;
 }
 .wrapper_a7c28c /* mentions */,
-.searchBar_a46bef /* search bar */,
+.searchBar_a46bef /* search bar */ {
+	background: black;
+}
 .searchBar_f0963d .searchBarComponent_f0963d /* find conversation search bar */,
 .topPill_a0 .item_a0 /* friend online/categories */ {
 	border-radius: var(--roundness-xxs);
@@ -895,9 +905,9 @@ html.theme-light,
 	--background-modifier-selected: var(--active);
 	--background-nested-floating: var(--primary-630);
 	--background-primary: var(--bg-4);
-	--background-secondary: var(--bg-3);
-	--background-secondary-alt: var(--bg-3);
-	--background-tertiary: var(--bg-3);
+	--background-secondary: transparent;
+	--background-secondary-alt: #00000000;
+	--background-tertiary: #00000000;
 	--bg-backdrop: hsl(var(--black-500-hsl) / 0.7);
 	--bg-backdrop-no-opacity: var(--black-500);
 	--bg-base-primary: var(--primary-600);
