@@ -1051,8 +1051,8 @@ html.theme-light,
 	--legacy-blur-fallback-ultra-thin: hsl(var(--black-500-hsl) / 0.95);
 	--live-stage-tile-border: hsl(var(--primary-500-hsl) / 0.6);
 	--logo-primary: var(--white-500);
-	--mention-background: var(--mention);
-	--mention-foreground: var(--accent-1);
+	/* --mention-background: var(--mention); */
+	/* --mention-foreground: var(--accent-1); */
 	--modal-background: var(--bg-4);
 	--modal-footer-background: var(--bg-4);
 	--navigator-header-tint: var(--white-500);
@@ -1150,9 +1150,9 @@ html.theme-light,
 	--status-warning: var(--yellow-300);
 	--status-warning-background: var(--yellow-300);
 	--status-warning-text: var(--black-500);
-	--text-brand: var(--accent-1);
+	/* --text-brand: var(--accent-1); */
 	--text-danger: #ff0000;
-	--text-link: var(--accent-1);
+	/* --text-link: var(--accent-1); */
 	--text-link-low-saturation: var(--blue-330);
 	--text-low-contrast: var(--primary-360);
 	--text-message-preview-low-sat: var(--primary-360);
