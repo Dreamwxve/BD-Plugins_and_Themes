@@ -2,5 +2,5 @@
     <strong>Plugin/Theme Collection</strong>
 </div>
 <p style="font-family: Arial, sans-serif; font-size: 1.2em; color: #white;">
-    This is where we keep all the custom/modified plugins and themes that we use for BetterDiscord! You are free to use on your own, any issues please open an issue [here]
+    This is where we keep all the custom/modified plugins and themes that we use for BetterDiscord! You are free to use on your own, any bugs etc please open an issue [here]( https://github.com/TsukiyoDevs/BD-Plugins_and_Themes/issues/new )
 </p>
