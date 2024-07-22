@@ -888,6 +888,11 @@ button.button_f67531 /* make user panel buttons round */ {
 .theme-light {
 	--text-link: var(--accent-5);
 }
+.layerContainer_cd0de5 .backdrop_e4f2ae {
+    background: transparent !important;
+    backdrop-filter: none !important;
+}
+
 html.theme-light,
 .theme-dark {
 	--activity-card-background: var(--bg-3);
