@@ -1,3 +1,4 @@
+# outdated
 <div style="text-align: center; font-family: Arial, sans-serif; color: #white; font-size: 2em; margin-bottom: 20px;">
     <strong>Plugin/Theme Collection</strong>
 </div>
